@@ -4,7 +4,7 @@
   "description": "Superfactorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bradleyflood/superfactorial/issues"
   },
-  "homepage": "https://github.com/bradleyflood/superfactorial#readme"
+  "homepage": "https://github.com/bradleyflood/superfactorial#readme",
+  "dependencies": {
+    "tap": "^10.7.2"
+  }
 }
